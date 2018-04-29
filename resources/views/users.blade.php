@@ -17,7 +17,7 @@
                                     {{ Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Nombre'])}}
                                 </div>
                                 <div class="form-group">
-                                    {{ Form::email('name', null, ['class' => 'form-control', 'placeholder' => 'Email'])}}
+                                    {{ Form::text('email', null, ['class' => 'form-control', 'placeholder' => 'Email'])}}
                                 </div>
                                 <div class="form-group">
                                     {{ Form::text('bio', null, ['class' => 'form-control', 'placeholder' => 'Bio'])}}

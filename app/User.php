@@ -27,7 +27,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    // Scopes
+    // Query Scopes
 
     public function scopeName($query, $name)
     {
